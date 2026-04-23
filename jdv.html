@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+</head>
+
+<!-- <input type="text" id="temp"> -->
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="jogo">
+        <div class="velha" onclick="clique(0,0,this)"></div>
+        <div class="velha" onclick="clique(0,1,this)"></div>
+        <div class="velha" onclick="clique(0,2,this)"></div>
+        <div class="velha" onclick="clique(1,0,this)"></div>
+        <div class="velha" onclick="clique(1,1,this)"></div>
+        <div class="velha" onclick="clique(1,2,this)"></div>
+        <div class="velha" onclick="clique(2,0,this)"></div>
+        <div class="velha" onclick="clique(2,1,this)"></div>
+        <div class="velha" onclick="clique(2,2,this)"></div>
+    </div>
+
+    <br>
+
+    <label id="vezde">X</label>
+
+    <br>
+
+    <div>
+        <a href="index.html"><button onclick=>Voltar</button></a>
+        <a href="jdv.html"><button onclick=>Reiniciar</button></a>
+    </div>
+
+    <footer>
+        © 2026 Glowstone. Todos os direitos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
